@@ -1,13 +1,30 @@
 *{
   margin:0;
   padding:0;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+  padding-top: 20px;
 }
 
-h1 {
-  background-color: rgb(0, 174, 255);
+.head{
+  text-align: center;
   margin: 10px;
   border-radius: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(194, 228, 247);
+
+}
+.right{
+  text-align: right;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+  padding-top: 0;
+  margin-top: 0;
+}
+.right a{
+  color: red;
 }
 
 .day{
