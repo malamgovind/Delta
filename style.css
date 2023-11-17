@@ -2,3 +2,37 @@
   margin:0;
   padding:0;
 }
+
+h1 {
+  background-color: rgb(0, 174, 255);
+  margin: 10px;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.day{
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(194, 228, 247);
+}
+
+.day h2{
+  color: red;
+  padding: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: disc;
+  margin-left: 50px;
+  padding-top: 5px;
+
+}
+
+.cont {
+  padding-bottom: 10px;
+}
