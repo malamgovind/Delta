@@ -1,9 +1,9 @@
-   <!-- Form in HTML -->
-      <!-- Form syntax:
+<!-- Form in HTML -->
+<!-- Form syntax:
       <form>
         content
       </form> -->
- <!-- ####### type attributes:
+<!-- ####### type attributes:
    <input type="text">
    <input type="password">
    <input type="number">
@@ -11,53 +11,68 @@
    <input type="color"> -->
 
 <!-- ############################  placeholder=""  ############################ -->
-     <!-- @@@@@ placeholder used in input tag to show the placeholder text @@@@@ -->
-      <!-- @@@@   Ex: <input type="text" placeholder="Enter your name">   @@@@ -->
+<!-- @@@@@ placeholder used in input tag to show the placeholder text @@@@@ -->
+<!-- @@@@   Ex: <input type="text" placeholder="Enter your name">   @@@@ -->
 
 
 <html>
-  <head>
-     <title> Form</title>
-  </head>
-     <body bgcolor="lightgreen"> 
-           <form action="05_action.html"> 
-          <label for="Name">Name</label>   &nbsp; &nbsp;&nbsp;&nbsp; <input type="text" placeholder="Enter your Name" id="Name" name="name"><br><br>
-             <label for="password">Password </label> &nbsp;<input type="password" placeholder="Enter password" id="password" name="password"><br><br>
-            <label for="number"> Number</label>  &nbsp; &nbsp; <input type="number" placeholder="Enter Number" id="number" name="number"><br><br>
-             <label for="time"> Time </label>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="time" id="time" name="time"><br><br>
-             <label for="color"> Color </label>   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="color" id="color" name="color"><br>
 
-     <!-- ############  Dropdown  ########## -->
-               <!-- <select name='profession' id="profession">
+<head>
+   <title> Form</title>
+</head>
+
+<body bgcolor="lightblue">
+   <form action="05_action.html">
+      <label for="Name">Name</label> &nbsp; &nbsp;&nbsp;&nbsp; <input type="text" placeholder="Enter your Name"
+         id="Name" name="name"><br><br>
+      <label for="password">Password </label> &nbsp;<input type="password" placeholder="Enter password" id="password"
+         name="password"><br><br>
+      <label for="number"> Number</label> &nbsp; &nbsp; <input type="number" placeholder="Enter Number" id="number"
+         name="number"><br><br>
+      <label for="time"> Time </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="time" id="time"
+         name="time"><br><br>
+      <label for="color"> Color </label> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="color" id="color" name="color"><br>
+      <br>
+      <!-- ############  Dropdown  ########## -->
+      <!-- <select name='profession' id="profession">
                    <option value="student">student</option>
                    <option value="dev">Developer</option>
                </select>   -->
+      <label for="sub">select your subject</label>
 
-             
+      <select id="sub">
+         <option>maths</option>
+         <option>phy</option>
+         <option>che</option>
+      </select>
+      <br><br>
 
 
-             
-             <label for="checkbox">conform submit your data</label>
-             <input type="checkbox" id="checkbox" name="checkbox">
-<div>
-   <label for="yes">Yes</label> 
-    <input type="radio" id="yes" name="choice" value="yes">
-</div>
-             <div>
-                <label for="no">No</label> 
-                 <input type="radio" id="no" name="choice" value="no">
-             </div>
 
-             
 
-               <!-- ####### button Tag: ######## -->
-           <!-- @@@@@@@ button type: @@@@@@@ 
+      <label for="checkbox">conform submit your data</label>
+      <input type="checkbox" id="checkbox" name="checkbox">
+      <div>
+         <label for="yes">Yes</label>
+         <input type="radio" id="yes" name="choice" value="yes">
+      </div>
+      <div>
+         <label for="no">No</label>
+         <input type="radio" id="no" name="choice" value="no">
+      </div>
+      <label for="feedback">Feedback</label>
+      <textarea placeholder="please give your helpfully answer" id="feedback" name="feedback" value="feedback" rows="3"
+         cols="50"></textarea>
+
+      <!-- ####### button Tag: ######## -->
+      <!-- @@@@@@@ button type: @@@@@@@ 
               1. <button type="submit"> submit </button>
              2. <button type="button"> do something </button>
              3. <button type="reset"> so something </button> -->
 
-         <hr>   <br>   &nbsp;&nbsp;&nbsp;&nbsp;<button type="submit"> Submit </button>
-           </form>
-       <hr>
-      </body>
+      <hr> <br> &nbsp;&nbsp;&nbsp;&nbsp;<button type="submit"> Submit </button>
+   </form>
+   <hr>
+</body>
+
 </html>
