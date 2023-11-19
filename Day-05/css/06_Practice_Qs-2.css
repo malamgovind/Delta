@@ -1,11 +1,10 @@
-h1{
+#propertie{
     font-family:League spartan;
     color:#ffa511;
     text-align:center;
-    text-size:55px;
+    font-size:55px;
     font-weight:900px;
     letter-spacing:2px;
-    line-height:1.5px;
     text-decoration:double underline;
     text-transform:uppercase;
 }
