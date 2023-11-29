@@ -1,0 +1,18 @@
+.one {
+    color: red;
+    background-color: aqua;
+}
+
+.two {
+    color: red;
+    background-color: yellow;
+}
+
+.three {
+    color: green;
+    background-color: blue;
+}
+
+body {
+    background-color: violet;
+}
