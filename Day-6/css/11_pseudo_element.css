@@ -1,0 +1,9 @@
+body{
+  background-color:pink;
+}
+p::first-letter{
+  color:blue;
+}
+h1::first-line{
+  color:green;
+}

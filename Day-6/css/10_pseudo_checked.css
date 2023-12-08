@@ -1,0 +1,14 @@
+input[type="text"]{
+   color:red;
+}
+input[type="radio"]:checked +label  {
+  color:red;
+  font-weight:bold;
+}
+button:hover{
+color:blue;
+  background-color:green;
+}
+button:active{
+  background-color:red;
+}
