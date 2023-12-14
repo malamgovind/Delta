@@ -2,9 +2,21 @@
   height:200px;
   width:70px;
   border:solid black;
+  background-color:#3333cc;
 }
 #lite{
   height:50px;
   width:50px;
   border:solid black;
+  border-radius:50px;
+  margin:10px;
+}
+.red{
+  background-color:red;
+}
+.yellow{
+  background-color:yellow;
+}
+.green{
+  background-color:green;
 }
