@@ -1,0 +1,39 @@
+.card{
+  width:150px;
+  height:200px;
+  margin:20px;
+  border:2px solid black;
+  padding-bottom:5px;
+  padding-left:10px;
+  display:inline-block;
+  /* background-color:#db00c9; */
+  border-radius:5px;
+  box-shadow: 0 4px 8px black;
+  background-color:#11e8b3;
+}
+img{
+  width:100px;
+  height:100px;
+  /* background-color:#db00c9; */
+}
+/* .sradhha{
+  width:200px;
+  height:200px;
+  margin:50px;
+  border:3px solid black;
+  display:inline-block;
+} */
+/* #all{
+  display:inline-block;
+} */
+.card:hover{
+  transition:2s;
+  border-radius: 0 10px 20px black;
+  /* transform:rotate(30deg); */
+  background-color:blue;
+
+}
+body{
+  backgroumd-color:pink;
+}
+  
