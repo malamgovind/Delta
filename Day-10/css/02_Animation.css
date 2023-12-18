@@ -1,10 +1,77 @@
 #box{
-  height:100px;
-  width:100px;
+  height:200px;
+  width:200px;
+  margin:50px;
   background-color: yellow ;
-  text-align:center;
+  /* text-align:center; */
+   display:flex;
+  justify-content:center;
+  align-items:center; 
+  animation-name:made;
+  animation-duration:2s;
+  /* animation-delay:2s; */
+  animation-direction:alternate;
+  /* transition:ease; */
+  /* animation:3s liner 3s infinite alternate slidein; */
+  animation:3s linear 3s infinite alternate made;
+  border:5px solid black;
+  transition:2s;
+  box-shadow:5px 5px 20px #9f049a;
 }
 h1{
   color:red;
-  font-size: 15px;
+  font-size: 25px;
+  text-align:center;
+  text-decoration:underline;
+animation-name:font;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+transition:2s linear 3s infinite alternate font;
+}
+@keyframes made{
+  from{
+    font-size:25px;
+    color:black;
+    background-color:yellow;
+      }
+  to{
+    font-size:35px;
+    color:blue;
+    background-color:pink;
+  }
+}
+
+#box:hover{
+  transition:2s;
+  border-radius:50px;
+  transition-duration:2s;
+  transform:rotate(45deg);
+  /* transform:torate-text(-45deg); */
+ /* transform:rotate  */
+  box-shadow: 10px 10px 40px white;
+  /* transition-space:3s;uyopl  */
+}
+body{
+  background-color:blue;
+  transition:2s;
+}
+body:hover{
+  background-color:green;
+  transition-duration:2s;
+}
+h1:hover{
+  transition-duration:2s;
+   color:white;
+  font-size:50px;
+}
+@keyframes font{
+  form{
+    font-size:25px;
+    color:red;
+  }
+  to{
+    font-size:40px;
+    color:white;
+  }
 }
