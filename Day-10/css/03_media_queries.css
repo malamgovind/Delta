@@ -1,0 +1,37 @@
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+@media(width:400px) {
+    h1 {
+        background-color: red;
+        color: white;
+    }
+}
+
+@media(min-width:500px) {
+    h1 {
+        background-color: green;
+    }
+}
+
+@media(max-width:200px) {
+    h1 {
+        background-color: blue;
+    }
+}
+
+@media(min-width:430px) and (max-width:490px) {
+    h1 {
+        background-color: blueviolet;
+        color: black;
+    }
+}

@@ -1,12 +1,15 @@
-h1{
-  color:pink;
+h1 {
+  color: pink;
 }
-#one{
-  color:yellow;
+
+#one {
+  color: yellow;
 }
-.two{
-  color:brown;
+
+.two {
+  color: brown;
 }
+
 /* div{
   background-color:pink;
   color:red;

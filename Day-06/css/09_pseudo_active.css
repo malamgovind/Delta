@@ -1,9 +1,11 @@
-button:active{
-  background-color:#fd3fc1;
+button:active {
+  background-color: #fd3fc1;
 }
-button:hover{
-  color:red;
+
+button:hover {
+  color: red;
 }
+
 input[type="text"] {
-  color:green;
+  color: green;
 }

@@ -1,17 +1,20 @@
-h1{
-    color:red;
-    background-color:aqua;
-    font-weight:100;
-    font-size:30px;
+h1 {
+    color: red;
+    background-color: aqua;
+    font-weight: 100;
+    font-size: 30px;
 }
-p{
-    color:green;
-    background-color:yellow;
-    font-size:20px;
+
+p {
+    color: green;
+    background-color: yellow;
+    font-size: 20px;
 }
-div{
-    background-color:lightseagreen;
+
+div {
+    background-color: lightseagreen;
 }
-body{
-    background-color:lightseagreen;
+
+body {
+    background-color: lightseagreen;
 }

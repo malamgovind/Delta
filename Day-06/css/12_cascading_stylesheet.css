@@ -1,11 +1,13 @@
-h1{
-  background-color:red;
-  color:blue;
+h1 {
+  background-color: red;
+  color: blue;
 }
-h1{
-  background-color:green;
-  color:blue;
+
+h1 {
+  background-color: green;
+  color: blue;
 }
-body{
-  background-color:pink;
+
+body {
+  background-color: pink;
 }

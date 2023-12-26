@@ -1,21 +1,27 @@
 #one {
-    text-align:left;
+    text-align: left;
 }
-#two{
-    font-weight:100px;
+
+#two {
+    font-weight: 100px;
 }
-#three{
+
+#three {
     text-decoration: wavy underline;
 }
-#four{
-    line-height:5px;
+
+#four {
+    line-height: 5px;
 }
-#five{
-    letter-spacing:10px;
+
+#five {
+    letter-spacing: 10px;
 }
-#six{
-    font-size:50px;
+
+#six {
+    font-size: 50px;
 }
-#seven{
-    font-family:arial;
+
+#seven {
+    font-family: arial;
 }

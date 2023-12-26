@@ -1,11 +1,13 @@
-h2{
-    color:orange;
+h2 {
+    color: orange;
 }
-p{
-    color:white;
-    background-color:black;
+
+p {
+    color: white;
+    background-color: black;
 }
-button{
-    color:white;
-    background-color:blue;
+
+button {
+    color: white;
+    background-color: blue;
 }

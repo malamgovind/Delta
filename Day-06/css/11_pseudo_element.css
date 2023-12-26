@@ -1,9 +1,11 @@
-body{
-  background-color:pink;
+body {
+  background-color: pink;
 }
-p::first-letter{
-  color:blue;
+
+p::first-letter {
+  color: blue;
 }
-h1::first-line{
-  color:green;
+
+h1::first-line {
+  color: green;
 }

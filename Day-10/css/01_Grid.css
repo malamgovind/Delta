@@ -1,22 +1,24 @@
-.contener{
-  width:600px;
-  height:300px;
-  background-color:black;
-  display:grid;
-  grid-template-rows:50px 50px 50px 50px 50px;
+.contener {
+  width: 600px;
+  height: 300px;
+  background-color: black;
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px 50px;
   grid-template-columns: 100px 100px 100px 100px;
   /*grid-template-row:repaet(2,1fr);*/
-  row-gap:10px;
-  column-gap:10px;
-  grid-gap:10px;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-gap: 10px;
 }
-.box{
-  width:100px;
-  height:50px;
-  background-color:greenyellow;
-  border:2px solid black;
-  text-align:center;
+
+.box {
+  width: 100px;
+  height: 50px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
 }
+
 /*.one{
   grid-column-start:1;
   grid-column-end:2;

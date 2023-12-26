@@ -1,13 +1,16 @@
 * {
   font-family: courier new;
 }
-h1{
-  color:#1b74e4;
+
+h1 {
+  color: #1b74e4;
 }
-#searchbtn{
-  background-color:black;
-  color:white;
+
+#searchbtn {
+  background-color: black;
+  color: white;
 }
-.boton{
+
+.boton {
   background-color: aqua;
 }

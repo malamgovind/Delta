@@ -1,7 +1,7 @@
-h1:hover{
-    text-decoration:underline;
-   background-color:lightgreen;
-  color:red;
-  font-family:arial;
- text-transform:uppercase; 
+h1:hover {
+    text-decoration: underline;
+    background-color: lightgreen;
+    color: red;
+    font-family: arial;
+    text-transform: uppercase;
 }

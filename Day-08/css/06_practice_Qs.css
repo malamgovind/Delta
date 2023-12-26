@@ -1,45 +1,51 @@
-.one{
-  width:200px;
-  height:200px;
-  background-color:#f5d27f;
-  border-radius:100px;
+.one {
+  width: 200px;
+  height: 200px;
+  background-color: #f5d27f;
+  border-radius: 100px;
   box-shadow: 0 5px 4px 5px cyan;
-  transition:2s;
+  transition: 2s;
 }
-.two{
-  width:100px;
-  height:35px;
-  background-color:red;
-  border-radius:0 0 40px 40px;
-/*  padding:50px 50px 30px 20px;*/
-  position:relative;
-  top:120px;
-  left:50px;
-}
-.left-eye,
-.right-eye{
-  width:40px;
-  height:40px;
-  background-color:black;
-  border-radius:50px;
-  position:relative;
-}
-.right-eye{
-  bottom:120px;
- left:60px;
-}
-.left-eye{
-  bottom:80px;
-}
-.one:hover{
-  transform:rotate(30deg);
-  transition:2s;
-  border-radius:70px;
 
-  background-color:#ff36eb;
-  box-shadow: 0 7px 6px 7px blue;
-  
+.two {
+  width: 100px;
+  height: 35px;
+  background-color: red;
+  border-radius: 0 0 40px 40px;
+  /*  padding:50px 50px 30px 20px;*/
+  position: relative;
+  top: 120px;
+  left: 50px;
 }
-body{
-  background-color:#b4ff9c;
+
+.left-eye,
+.right-eye {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50px;
+  position: relative;
+}
+
+.right-eye {
+  bottom: 120px;
+  left: 60px;
+}
+
+.left-eye {
+  bottom: 80px;
+}
+
+.one:hover {
+  transform: rotate(30deg);
+  transition: 2s;
+  border-radius: 70px;
+
+  background-color: #ff36eb;
+  box-shadow: 0 7px 6px 7px blue;
+
+}
+
+body {
+  background-color: #b4ff9c;
 }

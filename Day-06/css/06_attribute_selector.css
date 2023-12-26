@@ -1,16 +1,20 @@
-input[type="text"]{
-  color:red;
+input[type="text"] {
+  color: red;
 }
-input[type="password"]{
-  color:green;
+
+input[type="password"] {
+  color: green;
 }
-body{
-  background-color:lightpink;
+
+body {
+  background-color: lightpink;
 }
-label{
-  text-decoration:underline;
+
+label {
+  text-decoration: underline;
 }
-button{
-  color:blue;
-  background-color:green;
+
+button {
+  color: blue;
+  background-color: green;
 }

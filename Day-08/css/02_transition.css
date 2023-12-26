@@ -1,40 +1,45 @@
-#name{
-  width:100px;
-  height:100px;
-  background-color:green;
+#name {
+  width: 100px;
+  height: 100px;
+  background-color: green;
   transition: 2s;
-  margin:20px;
+  margin: 20px;
 }
-#name:hover{
-  background-color:black;
+
+#name:hover {
+  background-color: black;
   transition: 2s;
-  border-radius:50px;
+  border-radius: 50px;
   /* transition-timing-function:linear; */
 }
-#one{
-  width:100px;
-  height:100px;
-  background-color:pink;
-  margin:20px;
-  transition:2s;
+
+#one {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin: 20px;
+  transition: 2s;
 }
-#one:hover{
-  transition:2s;
-  border-radius:50px;
-  background-color:yellow;
-  transform:rotate(-45deg);
+
+#one:hover {
+  transition: 2s;
+  border-radius: 50px;
+  background-color: yellow;
+  transform: rotate(-45deg);
 }
-#two{
-  width:100px;
-  height:100px;
-  background-color:red;
-  margin:20px;
-  transition:2s;
+
+#two {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 20px;
+  transition: 2s;
 }
-#two:hover{
-  transition:2s;
-  background-color:blue;
+
+#two:hover {
+  transition: 2s;
+  background-color: blue;
   /* transition-timing-function:linaer; */
-  border-radius:50px;
-  transform:rotate(45deg);
+  border-radius: 50px;
+  transform: rotate(45deg);
 }
