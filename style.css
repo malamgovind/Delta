@@ -1,21 +1,24 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   font-family: 'Times New Roman', Times, serif;
 
 }
-h1{
+
+h1 {
   padding-top: 20px;
+  /* /* text-decoration: */
 }
 
-.head{
+.head {
   text-align: center;
   margin: 10px;
   border-radius: 10px;
   background-color: rgb(194, 228, 247);
 
 }
-.right{
+
+.right {
   text-align: right;
   margin: 20px;
   padding: 10px;
@@ -23,19 +26,23 @@ h1{
   padding-top: 0;
   margin-top: 0;
 }
-.right a{
+
+.right a {
   color: red;
 }
 
-.day{
+.day {
   margin: 10px;
   border-radius: 10px;
   background-color: rgb(194, 228, 247);
+  border: 1px solid blue;
+  transition: 2s;
 }
 
-.day h2{
+.day h2 {
   color: red;
   padding: 10px;
+  text-decoration: underline;
 }
 
 a {
@@ -52,4 +59,14 @@ li {
 
 .cont {
   padding-bottom: 10px;
+}
+
+.day:hover {
+  background-color: rgba(68, 224, 138, 0.932);
+  transition: 2s;
+  border-radius: 40px;
+}
+
+body {
+  background-color: aqua;
 }
