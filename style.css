@@ -36,7 +36,7 @@ h1 {
   border-radius: 10px;
   background-color: rgb(194, 228, 247);
   border: 1px solid blue;
-  /* transition: 2s; */
+  transition: 2s;
   box-shadow: 2px 2px 3px  yellow;
 }
 
@@ -62,12 +62,13 @@ li {
   padding-bottom: 10px;
 }
 
-/* .day:hover {
+.day:hover {
   background-color: rgba(68, 224, 138, 0.932);
   transition: 2s;
   border-radius: 40px;
-} */
+}
 
 body {
   background-color: aqua;
+  background-image: url(g.jpg.jpg);
 }
