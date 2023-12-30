@@ -11,3 +11,14 @@ if (age <= 18) {
 }
 console.log("after my if statement:");
 console.log("----------------------------------------");
+console.log("if else statement");
+let box = 23;
+if (box >= 18) {
+    console.log("you can vote");
+}
+else if (box <= 18) {
+    console.log("you cannot vote");
+}
+else {
+    console.log("you are 18");
+}
