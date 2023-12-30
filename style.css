@@ -66,6 +66,7 @@ li {
   background-color: rgba(68, 224, 138, 0.932);
   transition: 2s;
   border-radius: 40px;
+  transform:rotate(-0.5deg);
 }
 
 body {
